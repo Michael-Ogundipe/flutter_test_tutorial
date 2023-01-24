@@ -4,13 +4,8 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is a Flutter unit test tutorila written in Dart, using flutter_test package for unit testing a Flutter application. 
 
-A few resources to get you started if this is your first Flutter project:
+It tests a GreetingController class which is imported and creates an instance of it. The test file defines a group of test cases, each test case calls a method on the greetingController instance and compares the return value with the expected greeting using the expect() function. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The goal of this test is to check if the greeting() method of GreetingController class returns the expected greeting based on the hour passed to it.
